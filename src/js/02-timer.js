@@ -32,10 +32,10 @@ const options = {
   time_24hr: true,
   defaultDate: new Date(),
   minuteIncrement: 1,
-    onClose(selectedDates) {
-      //
-    // /here i must write my code
+  onClose(selectedDates) {
     //
+    // /here i must write my code
+    //is it work?
     console.log(selectedDates[0]);
   },
 };
